@@ -87,7 +87,8 @@ dependencies:
   text_to_speech: ^0.2.3
   progress_indicator: ^0.2.2
   clock_loader: ^0.0.3
-  
+  vitality: ^1.0.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

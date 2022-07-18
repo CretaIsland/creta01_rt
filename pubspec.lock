@@ -840,6 +840,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.10"
+  vitality:
+    dependency: "direct main"
+    description:
+      name: vitality
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.2"
   wakelock:
     dependency: "direct main"
     description:
