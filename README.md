@@ -24,7 +24,7 @@ samples, guidance on mobile development, and a full API reference.
 ## skpark
 ## run way
 ## build directory configuration
-flutter config --build-dir=../release/cretaTest04  
+flutter config --build-dir=../release/cretaTestRT04  
 
 #visual code 를 재기동한다.
 
@@ -37,23 +37,23 @@ flutter run -d chrome --web-renderer canvaskit
 
 
 ## build and release process
-flutter build web --web-renderer html --release --base-href="/cretaTest04/"
+flutter build web --web-renderer html --release --base-href="/cretaRTTest04/"
 # or
-flutter build web --web-renderer canvaskit --release --base-href="/cretaTest04/"
+flutter build web --web-renderer canvaskit --release --base-href="/cretaRTTest04/"
 
 ## first time after create repository
-cd ../release/cretaTest04/web
-echo "# cretaTest04" >> README.md
+cd ../release/cretaTestRT04/web
+echo "# cretaTestRT04" >> README.md
 git init
 git add .
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/CretaIsland/cretaTest04.git
+git remote add origin https://github.com/CretaIsland/cretaTestRT04.git
 git push -u origin main
 
 ## GitHub 페이지에서 Settings 에서 GitHub pages 'click it out here' 를 누른다.
 # Source choice 박스에서 main 을 고른뒤 save 를 눌러주면 웹페이지가 생기다.
-# https://CretaIsland.github.io/cretaTest04/
+# https://CretaIsland.github.io/cretaTestRT04/
 
 # for windows configuration
 

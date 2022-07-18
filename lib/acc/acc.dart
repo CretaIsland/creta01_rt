@@ -1063,9 +1063,9 @@ class ACC {
     if (page != null) {
       if (accModel.containerSize.value.width.floor() == page!.width.value &&
           accModel.containerSize.value.height.floor() == page!.height.value) {
-        accModel.fullscreen.set(true);
+        accModel.fullscreen.set(true, save: false, noUndo: true);
       } else {
-        accModel.fullscreen.set(false);
+        accModel.fullscreen.set(false, save: false, noUndo: true);
       }
     }
     return accModel.fullscreen.value;
